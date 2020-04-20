@@ -1,0 +1,27 @@
+{
+  "name": "socialMediaDashboard",
+  "version": "1.0.0",
+  "description": "HTML, CSS and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss src/css/tailwind.css -o css/style.css -w"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcarlosalba/socialMediaDashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcarlosalba/socialMediaDashboard/issues"
+  },
+  "homepage": "https://github.com/rcarlosalba/socialMediaDashboard#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}

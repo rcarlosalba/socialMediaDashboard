@@ -1,0 +1,8 @@
+/node_modules
+/design
+/src
+package-lock.json
+prepros.config
+style-guide.md
+postcss.config.js
+tailwind.config.js
