@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>Frontend Mentor | [Challenge Carlos Alba]</title>
   <link rel="stylesheet" href="./css/style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -14,74 +12,188 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="m-4 bg-backlight">
+  <header class="md:flex justify-between">
+    <div class="title w-12/12 md:w-8/12">
+      <h1 class="text-2xl font-bold"> Social Media Dashboard </h1>
+      <p class="text-md pb-2 text-gray-600 font-semibold border-b-2 md:border-b-0"> Total Followers: 23,004 </p>
+    </div>
+    <div class="button-dark container relative w-12/12 mb-8 md:w-3/12">
+      <div class="darktext absolute left-0 top-0 mt-8 md:mt-6 md:ml-8 lg:ml-24 xl:ml-40">
+        <p>Dark Mode:</p>
+      </div>
+      <div class="dark-button absolute right-0 top-0">
+        <input type="checkbox" id="switch">
+        <label for="switch">Toogle</label>
+      </div>
+    </div>
+  </header>
+<!-- container -->
+  <div class="resume w-full text-center">
+    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="line mb-4"></div>
+      <div class="social-net flex justify-center my-4">
+        <img class="self-center h-6 w-auto" src="./images/icon-facebook.svg" alt="">
+        <div class="nick ml-2 text-sm text-gray-900">@nathanf</div>
+      </div>
+      <div class="number text-center text-6xl font-bold">1987</div>
+      <p class="followers text-sm uppercase text-center">Followers</p>
+      <div class="today pb-4 mt-4 flex justify-center">
+        <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+        <p class="text-sm text-verdelima">12 Today</p>
+      </div>
+    </div>
+    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="line"></div>
+      <div class="social-net flex justify-center my-4">
+        <img class="self-center h-6 w-auto" src="./images/icon-twitter.svg" alt="">
+        <div class="nick ml-2 text-sm text-gray-900">@nathanf</div>
+      </div>
+      <div class="number text-center text-6xl font-bold">1044</div>
+      <p class="followers text-sm uppercase text-center">Followers</p>
+      <div class="today pb-4 mt-4 flex justify-center">
+        <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+        <p class="text-sm text-verdelima">99 Today</p>
+      </div>
+    </div>
+    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="line"></div>
+      <div class="social-net flex justify-center my-4">
+        <img class="self-center h-6 w-auto" src="./images/icon-instagram.svg" alt="">
+        <div class="nick ml-2 text-sm text-gray-900">@realnathanf</div>
+      </div>
+      <div class="number text-center text-6xl font-bold">11k</div>
+      <p class="followers text-sm uppercase text-center">Followers</p>
+      <div class="today pb-4 mt-4 flex justify-center">
+        <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+        <p class="text-sm text-verdelima">1099 Today</p>
+      </div>
+    </div>
+    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="line"></div>
+      <div class="social-net flex justify-center my-4">
+        <img class="self-center h-6 w-auto" src="./images/icon-youtube.svg" alt="">
+        <div class="nick ml-2 text-sm text-gray-900">Nathan F.</div>
+      </div>
+      <div class="number text-center text-6xl font-bold">8239</div>
+      <p class="followers text-sm uppercase text-center">Followers</p>
+      <div class="today pb-4 mt-4 flex justify-center">
+        <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
+        <p class="text-sm text-rojoBrillante">144 Today</p>
+      </div>
+    </div>
 
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
+  </div>
+  <h2 class="text-xl font-bold">Overview - Today</h2>
+  <div class="overview w-full text-center">
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Page Views</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-facebook.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black">87</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+          <p class="text-verdelima">3%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Likes</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-facebook.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black">52</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
+          <p class="text-rojoBrillante">2%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Likes</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-instagram.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black"> 5462</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+          <p class="text-verdelima">2257%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Profile Views</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-instagram.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black" >52k</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+          <p class="text-verdelima">1375%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Retweets</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-twitter.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black" >117</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+          <p class="text-verdelima">303%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Likes</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-twitter.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black" >507</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
+          <p class="text-verdelima">553%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Likes</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-youtube.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black" >107</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
+          <p class="text-rojoBrillante">19%</p>
+        </div>
+      </div>
+    </div>
+    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+      <div class="data-today flex justify-between mb-4">
+        <p class="text-gray-600">Total Views</p>
+        <img class="self-center h-6 w-auto" src="./images/icon-youtube.svg" alt="">
+      </div>
+      <div class="numer-today flex justify-between items-end">
+        <div class="number-today font-bold text-3xl text-black"> 1407</div>
+        <div class="up-down flex">
+          <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
+          <p class="text-rojoBrillante">12%</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Carlos Alba</a>.
   </div>
 </body>
 </html>

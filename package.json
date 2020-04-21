@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "postcss src/css/tailwind.css -o css/style.css -w"
-    
+    "dev": "postcss src/css/tailwind.css -o css/style.css --watch"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,8 @@
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "tailwindcss-border-gradients": "^2.0.3",
+    "tailwindcss-gradients": "^3.0.0"
   }
 }

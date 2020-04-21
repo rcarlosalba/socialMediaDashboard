@@ -415,7 +415,7 @@ ul {
  */
 
 html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: Inter, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -559,7 +559,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -1059,6 +1059,50 @@ video {
   background-color: #702459;
 }
 
+.bg-verdelima {
+  background-color: #1DB489;
+}
+
+.bg-rojoBrillante {
+  background-color: #DC414C;
+}
+
+.bg-facebook {
+  background-color: #1CA0F2;
+}
+
+.bg-twitter {
+  background-color: #00BFFF;
+}
+
+.bg-youtube {
+  background-color: #C4032A;
+}
+
+.bg-backdark {
+  background-color: #1f212e;
+}
+
+.bg-boxdark {
+  background-color: #242a42;
+}
+
+.bg-boxoverD {
+  background-color: #333a57;
+}
+
+.bg-backlight {
+  background-color: #fff;
+}
+
+.bg-boxlight {
+  background-color: #f0f2fa;
+}
+
+.bg-boxover {
+  background-color: #e1e4f0;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1431,6 +1475,50 @@ video {
   background-color: #702459;
 }
 
+.hover\:bg-verdelima:hover {
+  background-color: #1DB489;
+}
+
+.hover\:bg-rojoBrillante:hover {
+  background-color: #DC414C;
+}
+
+.hover\:bg-facebook:hover {
+  background-color: #1CA0F2;
+}
+
+.hover\:bg-twitter:hover {
+  background-color: #00BFFF;
+}
+
+.hover\:bg-youtube:hover {
+  background-color: #C4032A;
+}
+
+.hover\:bg-backdark:hover {
+  background-color: #1f212e;
+}
+
+.hover\:bg-boxdark:hover {
+  background-color: #242a42;
+}
+
+.hover\:bg-boxoverD:hover {
+  background-color: #333a57;
+}
+
+.hover\:bg-backlight:hover {
+  background-color: #fff;
+}
+
+.hover\:bg-boxlight:hover {
+  background-color: #f0f2fa;
+}
+
+.hover\:bg-boxover:hover {
+  background-color: #e1e4f0;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1801,6 +1889,50 @@ video {
 
 .focus\:bg-pink-900:focus {
   background-color: #702459;
+}
+
+.focus\:bg-verdelima:focus {
+  background-color: #1DB489;
+}
+
+.focus\:bg-rojoBrillante:focus {
+  background-color: #DC414C;
+}
+
+.focus\:bg-facebook:focus {
+  background-color: #1CA0F2;
+}
+
+.focus\:bg-twitter:focus {
+  background-color: #00BFFF;
+}
+
+.focus\:bg-youtube:focus {
+  background-color: #C4032A;
+}
+
+.focus\:bg-backdark:focus {
+  background-color: #1f212e;
+}
+
+.focus\:bg-boxdark:focus {
+  background-color: #242a42;
+}
+
+.focus\:bg-boxoverD:focus {
+  background-color: #333a57;
+}
+
+.focus\:bg-backlight:focus {
+  background-color: #fff;
+}
+
+.focus\:bg-boxlight:focus {
+  background-color: #f0f2fa;
+}
+
+.focus\:bg-boxover:focus {
+  background-color: #e1e4f0;
 }
 
 .bg-bottom {
@@ -2255,6 +2387,50 @@ video {
   border-color: #702459;
 }
 
+.border-verdelima {
+  border-color: #1DB489;
+}
+
+.border-rojoBrillante {
+  border-color: #DC414C;
+}
+
+.border-facebook {
+  border-color: #1CA0F2;
+}
+
+.border-twitter {
+  border-color: #00BFFF;
+}
+
+.border-youtube {
+  border-color: #C4032A;
+}
+
+.border-backdark {
+  border-color: #1f212e;
+}
+
+.border-boxdark {
+  border-color: #242a42;
+}
+
+.border-boxoverD {
+  border-color: #333a57;
+}
+
+.border-backlight {
+  border-color: #fff;
+}
+
+.border-boxlight {
+  border-color: #f0f2fa;
+}
+
+.border-boxover {
+  border-color: #e1e4f0;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2627,6 +2803,50 @@ video {
   border-color: #702459;
 }
 
+.hover\:border-verdelima:hover {
+  border-color: #1DB489;
+}
+
+.hover\:border-rojoBrillante:hover {
+  border-color: #DC414C;
+}
+
+.hover\:border-facebook:hover {
+  border-color: #1CA0F2;
+}
+
+.hover\:border-twitter:hover {
+  border-color: #00BFFF;
+}
+
+.hover\:border-youtube:hover {
+  border-color: #C4032A;
+}
+
+.hover\:border-backdark:hover {
+  border-color: #1f212e;
+}
+
+.hover\:border-boxdark:hover {
+  border-color: #242a42;
+}
+
+.hover\:border-boxoverD:hover {
+  border-color: #333a57;
+}
+
+.hover\:border-backlight:hover {
+  border-color: #fff;
+}
+
+.hover\:border-boxlight:hover {
+  border-color: #f0f2fa;
+}
+
+.hover\:border-boxover:hover {
+  border-color: #e1e4f0;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -2997,6 +3217,50 @@ video {
 
 .focus\:border-pink-900:focus {
   border-color: #702459;
+}
+
+.focus\:border-verdelima:focus {
+  border-color: #1DB489;
+}
+
+.focus\:border-rojoBrillante:focus {
+  border-color: #DC414C;
+}
+
+.focus\:border-facebook:focus {
+  border-color: #1CA0F2;
+}
+
+.focus\:border-twitter:focus {
+  border-color: #00BFFF;
+}
+
+.focus\:border-youtube:focus {
+  border-color: #C4032A;
+}
+
+.focus\:border-backdark:focus {
+  border-color: #1f212e;
+}
+
+.focus\:border-boxdark:focus {
+  border-color: #242a42;
+}
+
+.focus\:border-boxoverD:focus {
+  border-color: #333a57;
+}
+
+.focus\:border-backlight:focus {
+  border-color: #fff;
+}
+
+.focus\:border-boxlight:focus {
+  border-color: #f0f2fa;
+}
+
+.focus\:border-boxover:focus {
+  border-color: #e1e4f0;
 }
 
 .rounded-none {
@@ -3694,15 +3958,7 @@ video {
 }
 
 .font-sans {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Inter, sans-serif;
 }
 
 .font-hairline {
@@ -7833,6 +8089,226 @@ video {
   color: #702459;
 }
 
+.placeholder-verdelima::-webkit-input-placeholder {
+  color: #1DB489;
+}
+
+.placeholder-verdelima::-moz-placeholder {
+  color: #1DB489;
+}
+
+.placeholder-verdelima:-ms-input-placeholder {
+  color: #1DB489;
+}
+
+.placeholder-verdelima::-ms-input-placeholder {
+  color: #1DB489;
+}
+
+.placeholder-verdelima::placeholder {
+  color: #1DB489;
+}
+
+.placeholder-rojoBrillante::-webkit-input-placeholder {
+  color: #DC414C;
+}
+
+.placeholder-rojoBrillante::-moz-placeholder {
+  color: #DC414C;
+}
+
+.placeholder-rojoBrillante:-ms-input-placeholder {
+  color: #DC414C;
+}
+
+.placeholder-rojoBrillante::-ms-input-placeholder {
+  color: #DC414C;
+}
+
+.placeholder-rojoBrillante::placeholder {
+  color: #DC414C;
+}
+
+.placeholder-facebook::-webkit-input-placeholder {
+  color: #1CA0F2;
+}
+
+.placeholder-facebook::-moz-placeholder {
+  color: #1CA0F2;
+}
+
+.placeholder-facebook:-ms-input-placeholder {
+  color: #1CA0F2;
+}
+
+.placeholder-facebook::-ms-input-placeholder {
+  color: #1CA0F2;
+}
+
+.placeholder-facebook::placeholder {
+  color: #1CA0F2;
+}
+
+.placeholder-twitter::-webkit-input-placeholder {
+  color: #00BFFF;
+}
+
+.placeholder-twitter::-moz-placeholder {
+  color: #00BFFF;
+}
+
+.placeholder-twitter:-ms-input-placeholder {
+  color: #00BFFF;
+}
+
+.placeholder-twitter::-ms-input-placeholder {
+  color: #00BFFF;
+}
+
+.placeholder-twitter::placeholder {
+  color: #00BFFF;
+}
+
+.placeholder-youtube::-webkit-input-placeholder {
+  color: #C4032A;
+}
+
+.placeholder-youtube::-moz-placeholder {
+  color: #C4032A;
+}
+
+.placeholder-youtube:-ms-input-placeholder {
+  color: #C4032A;
+}
+
+.placeholder-youtube::-ms-input-placeholder {
+  color: #C4032A;
+}
+
+.placeholder-youtube::placeholder {
+  color: #C4032A;
+}
+
+.placeholder-backdark::-webkit-input-placeholder {
+  color: #1f212e;
+}
+
+.placeholder-backdark::-moz-placeholder {
+  color: #1f212e;
+}
+
+.placeholder-backdark:-ms-input-placeholder {
+  color: #1f212e;
+}
+
+.placeholder-backdark::-ms-input-placeholder {
+  color: #1f212e;
+}
+
+.placeholder-backdark::placeholder {
+  color: #1f212e;
+}
+
+.placeholder-boxdark::-webkit-input-placeholder {
+  color: #242a42;
+}
+
+.placeholder-boxdark::-moz-placeholder {
+  color: #242a42;
+}
+
+.placeholder-boxdark:-ms-input-placeholder {
+  color: #242a42;
+}
+
+.placeholder-boxdark::-ms-input-placeholder {
+  color: #242a42;
+}
+
+.placeholder-boxdark::placeholder {
+  color: #242a42;
+}
+
+.placeholder-boxoverD::-webkit-input-placeholder {
+  color: #333a57;
+}
+
+.placeholder-boxoverD::-moz-placeholder {
+  color: #333a57;
+}
+
+.placeholder-boxoverD:-ms-input-placeholder {
+  color: #333a57;
+}
+
+.placeholder-boxoverD::-ms-input-placeholder {
+  color: #333a57;
+}
+
+.placeholder-boxoverD::placeholder {
+  color: #333a57;
+}
+
+.placeholder-backlight::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.placeholder-backlight::-moz-placeholder {
+  color: #fff;
+}
+
+.placeholder-backlight:-ms-input-placeholder {
+  color: #fff;
+}
+
+.placeholder-backlight::-ms-input-placeholder {
+  color: #fff;
+}
+
+.placeholder-backlight::placeholder {
+  color: #fff;
+}
+
+.placeholder-boxlight::-webkit-input-placeholder {
+  color: #f0f2fa;
+}
+
+.placeholder-boxlight::-moz-placeholder {
+  color: #f0f2fa;
+}
+
+.placeholder-boxlight:-ms-input-placeholder {
+  color: #f0f2fa;
+}
+
+.placeholder-boxlight::-ms-input-placeholder {
+  color: #f0f2fa;
+}
+
+.placeholder-boxlight::placeholder {
+  color: #f0f2fa;
+}
+
+.placeholder-boxover::-webkit-input-placeholder {
+  color: #e1e4f0;
+}
+
+.placeholder-boxover::-moz-placeholder {
+  color: #e1e4f0;
+}
+
+.placeholder-boxover:-ms-input-placeholder {
+  color: #e1e4f0;
+}
+
+.placeholder-boxover::-ms-input-placeholder {
+  color: #e1e4f0;
+}
+
+.placeholder-boxover::placeholder {
+  color: #e1e4f0;
+}
+
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -9693,6 +10169,226 @@ video {
   color: #702459;
 }
 
+.focus\:placeholder-verdelima:focus::-webkit-input-placeholder {
+  color: #1DB489;
+}
+
+.focus\:placeholder-verdelima:focus::-moz-placeholder {
+  color: #1DB489;
+}
+
+.focus\:placeholder-verdelima:focus:-ms-input-placeholder {
+  color: #1DB489;
+}
+
+.focus\:placeholder-verdelima:focus::-ms-input-placeholder {
+  color: #1DB489;
+}
+
+.focus\:placeholder-verdelima:focus::placeholder {
+  color: #1DB489;
+}
+
+.focus\:placeholder-rojoBrillante:focus::-webkit-input-placeholder {
+  color: #DC414C;
+}
+
+.focus\:placeholder-rojoBrillante:focus::-moz-placeholder {
+  color: #DC414C;
+}
+
+.focus\:placeholder-rojoBrillante:focus:-ms-input-placeholder {
+  color: #DC414C;
+}
+
+.focus\:placeholder-rojoBrillante:focus::-ms-input-placeholder {
+  color: #DC414C;
+}
+
+.focus\:placeholder-rojoBrillante:focus::placeholder {
+  color: #DC414C;
+}
+
+.focus\:placeholder-facebook:focus::-webkit-input-placeholder {
+  color: #1CA0F2;
+}
+
+.focus\:placeholder-facebook:focus::-moz-placeholder {
+  color: #1CA0F2;
+}
+
+.focus\:placeholder-facebook:focus:-ms-input-placeholder {
+  color: #1CA0F2;
+}
+
+.focus\:placeholder-facebook:focus::-ms-input-placeholder {
+  color: #1CA0F2;
+}
+
+.focus\:placeholder-facebook:focus::placeholder {
+  color: #1CA0F2;
+}
+
+.focus\:placeholder-twitter:focus::-webkit-input-placeholder {
+  color: #00BFFF;
+}
+
+.focus\:placeholder-twitter:focus::-moz-placeholder {
+  color: #00BFFF;
+}
+
+.focus\:placeholder-twitter:focus:-ms-input-placeholder {
+  color: #00BFFF;
+}
+
+.focus\:placeholder-twitter:focus::-ms-input-placeholder {
+  color: #00BFFF;
+}
+
+.focus\:placeholder-twitter:focus::placeholder {
+  color: #00BFFF;
+}
+
+.focus\:placeholder-youtube:focus::-webkit-input-placeholder {
+  color: #C4032A;
+}
+
+.focus\:placeholder-youtube:focus::-moz-placeholder {
+  color: #C4032A;
+}
+
+.focus\:placeholder-youtube:focus:-ms-input-placeholder {
+  color: #C4032A;
+}
+
+.focus\:placeholder-youtube:focus::-ms-input-placeholder {
+  color: #C4032A;
+}
+
+.focus\:placeholder-youtube:focus::placeholder {
+  color: #C4032A;
+}
+
+.focus\:placeholder-backdark:focus::-webkit-input-placeholder {
+  color: #1f212e;
+}
+
+.focus\:placeholder-backdark:focus::-moz-placeholder {
+  color: #1f212e;
+}
+
+.focus\:placeholder-backdark:focus:-ms-input-placeholder {
+  color: #1f212e;
+}
+
+.focus\:placeholder-backdark:focus::-ms-input-placeholder {
+  color: #1f212e;
+}
+
+.focus\:placeholder-backdark:focus::placeholder {
+  color: #1f212e;
+}
+
+.focus\:placeholder-boxdark:focus::-webkit-input-placeholder {
+  color: #242a42;
+}
+
+.focus\:placeholder-boxdark:focus::-moz-placeholder {
+  color: #242a42;
+}
+
+.focus\:placeholder-boxdark:focus:-ms-input-placeholder {
+  color: #242a42;
+}
+
+.focus\:placeholder-boxdark:focus::-ms-input-placeholder {
+  color: #242a42;
+}
+
+.focus\:placeholder-boxdark:focus::placeholder {
+  color: #242a42;
+}
+
+.focus\:placeholder-boxoverD:focus::-webkit-input-placeholder {
+  color: #333a57;
+}
+
+.focus\:placeholder-boxoverD:focus::-moz-placeholder {
+  color: #333a57;
+}
+
+.focus\:placeholder-boxoverD:focus:-ms-input-placeholder {
+  color: #333a57;
+}
+
+.focus\:placeholder-boxoverD:focus::-ms-input-placeholder {
+  color: #333a57;
+}
+
+.focus\:placeholder-boxoverD:focus::placeholder {
+  color: #333a57;
+}
+
+.focus\:placeholder-backlight:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.focus\:placeholder-backlight:focus::-moz-placeholder {
+  color: #fff;
+}
+
+.focus\:placeholder-backlight:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+.focus\:placeholder-backlight:focus::-ms-input-placeholder {
+  color: #fff;
+}
+
+.focus\:placeholder-backlight:focus::placeholder {
+  color: #fff;
+}
+
+.focus\:placeholder-boxlight:focus::-webkit-input-placeholder {
+  color: #f0f2fa;
+}
+
+.focus\:placeholder-boxlight:focus::-moz-placeholder {
+  color: #f0f2fa;
+}
+
+.focus\:placeholder-boxlight:focus:-ms-input-placeholder {
+  color: #f0f2fa;
+}
+
+.focus\:placeholder-boxlight:focus::-ms-input-placeholder {
+  color: #f0f2fa;
+}
+
+.focus\:placeholder-boxlight:focus::placeholder {
+  color: #f0f2fa;
+}
+
+.focus\:placeholder-boxover:focus::-webkit-input-placeholder {
+  color: #e1e4f0;
+}
+
+.focus\:placeholder-boxover:focus::-moz-placeholder {
+  color: #e1e4f0;
+}
+
+.focus\:placeholder-boxover:focus:-ms-input-placeholder {
+  color: #e1e4f0;
+}
+
+.focus\:placeholder-boxover:focus::-ms-input-placeholder {
+  color: #e1e4f0;
+}
+
+.focus\:placeholder-boxover:focus::placeholder {
+  color: #e1e4f0;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -10340,6 +11036,50 @@ video {
   color: #702459;
 }
 
+.text-verdelima {
+  color: #1DB489;
+}
+
+.text-rojoBrillante {
+  color: #DC414C;
+}
+
+.text-facebook {
+  color: #1CA0F2;
+}
+
+.text-twitter {
+  color: #00BFFF;
+}
+
+.text-youtube {
+  color: #C4032A;
+}
+
+.text-backdark {
+  color: #1f212e;
+}
+
+.text-boxdark {
+  color: #242a42;
+}
+
+.text-boxoverD {
+  color: #333a57;
+}
+
+.text-backlight {
+  color: #fff;
+}
+
+.text-boxlight {
+  color: #f0f2fa;
+}
+
+.text-boxover {
+  color: #e1e4f0;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -10712,6 +11452,50 @@ video {
   color: #702459;
 }
 
+.hover\:text-verdelima:hover {
+  color: #1DB489;
+}
+
+.hover\:text-rojoBrillante:hover {
+  color: #DC414C;
+}
+
+.hover\:text-facebook:hover {
+  color: #1CA0F2;
+}
+
+.hover\:text-twitter:hover {
+  color: #00BFFF;
+}
+
+.hover\:text-youtube:hover {
+  color: #C4032A;
+}
+
+.hover\:text-backdark:hover {
+  color: #1f212e;
+}
+
+.hover\:text-boxdark:hover {
+  color: #242a42;
+}
+
+.hover\:text-boxoverD:hover {
+  color: #333a57;
+}
+
+.hover\:text-backlight:hover {
+  color: #fff;
+}
+
+.hover\:text-boxlight:hover {
+  color: #f0f2fa;
+}
+
+.hover\:text-boxover:hover {
+  color: #e1e4f0;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -11082,6 +11866,50 @@ video {
 
 .focus\:text-pink-900:focus {
   color: #702459;
+}
+
+.focus\:text-verdelima:focus {
+  color: #1DB489;
+}
+
+.focus\:text-rojoBrillante:focus {
+  color: #DC414C;
+}
+
+.focus\:text-facebook:focus {
+  color: #1CA0F2;
+}
+
+.focus\:text-twitter:focus {
+  color: #00BFFF;
+}
+
+.focus\:text-youtube:focus {
+  color: #C4032A;
+}
+
+.focus\:text-backdark:focus {
+  color: #1f212e;
+}
+
+.focus\:text-boxdark:focus {
+  color: #242a42;
+}
+
+.focus\:text-boxoverD:focus {
+  color: #333a57;
+}
+
+.focus\:text-backlight:focus {
+  color: #fff;
+}
+
+.focus\:text-boxlight:focus {
+  color: #f0f2fa;
+}
+
+.focus\:text-boxover:focus {
+  color: #e1e4f0;
 }
 
 .text-xs {
@@ -13946,6 +14774,84 @@ video {
   transition-duration: 1000ms;
 }
 
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Gradientes */
+
+.line{
+  height: 3px;
+}
+
+.card:nth-child(1)>.line{
+  background: hsl(203, 89%, 53%);
+}
+
+.card:nth-child(2)>.line {
+  background: hsl(195, 100%, 50%);
+}
+
+.card:nth-child(3)>.line {
+  background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+
+.card:nth-child(4)>.line {
+  background: hsl(348, 97%, 39%);
+}
+
+input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label{
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 50px;
+  height: 26px;
+  background: grey;
+  display: block;
+  border-radius: 16px;
+  position: relative;
+}
+
+label::after{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: linear-gradient(90deg, rgba(55,143,230,1) 0%, rgba(62,218,130,1) 100%);
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 20px;
+}
+
+.button-dark{
+  height: 50px;
+}
+
+body{
+  background-image: linear-gradient(180deg, rgba(248,249,254,1) 0%, rgba(248,249,254,1) 100%);
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -14383,6 +15289,50 @@ video {
     background-color: #702459;
   }
 
+  .sm\:bg-verdelima {
+    background-color: #1DB489;
+  }
+
+  .sm\:bg-rojoBrillante {
+    background-color: #DC414C;
+  }
+
+  .sm\:bg-facebook {
+    background-color: #1CA0F2;
+  }
+
+  .sm\:bg-twitter {
+    background-color: #00BFFF;
+  }
+
+  .sm\:bg-youtube {
+    background-color: #C4032A;
+  }
+
+  .sm\:bg-backdark {
+    background-color: #1f212e;
+  }
+
+  .sm\:bg-boxdark {
+    background-color: #242a42;
+  }
+
+  .sm\:bg-boxoverD {
+    background-color: #333a57;
+  }
+
+  .sm\:bg-backlight {
+    background-color: #fff;
+  }
+
+  .sm\:bg-boxlight {
+    background-color: #f0f2fa;
+  }
+
+  .sm\:bg-boxover {
+    background-color: #e1e4f0;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -14755,6 +15705,50 @@ video {
     background-color: #702459;
   }
 
+  .sm\:hover\:bg-verdelima:hover {
+    background-color: #1DB489;
+  }
+
+  .sm\:hover\:bg-rojoBrillante:hover {
+    background-color: #DC414C;
+  }
+
+  .sm\:hover\:bg-facebook:hover {
+    background-color: #1CA0F2;
+  }
+
+  .sm\:hover\:bg-twitter:hover {
+    background-color: #00BFFF;
+  }
+
+  .sm\:hover\:bg-youtube:hover {
+    background-color: #C4032A;
+  }
+
+  .sm\:hover\:bg-backdark:hover {
+    background-color: #1f212e;
+  }
+
+  .sm\:hover\:bg-boxdark:hover {
+    background-color: #242a42;
+  }
+
+  .sm\:hover\:bg-boxoverD:hover {
+    background-color: #333a57;
+  }
+
+  .sm\:hover\:bg-backlight:hover {
+    background-color: #fff;
+  }
+
+  .sm\:hover\:bg-boxlight:hover {
+    background-color: #f0f2fa;
+  }
+
+  .sm\:hover\:bg-boxover:hover {
+    background-color: #e1e4f0;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -15125,6 +16119,50 @@ video {
 
   .sm\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .sm\:focus\:bg-verdelima:focus {
+    background-color: #1DB489;
+  }
+
+  .sm\:focus\:bg-rojoBrillante:focus {
+    background-color: #DC414C;
+  }
+
+  .sm\:focus\:bg-facebook:focus {
+    background-color: #1CA0F2;
+  }
+
+  .sm\:focus\:bg-twitter:focus {
+    background-color: #00BFFF;
+  }
+
+  .sm\:focus\:bg-youtube:focus {
+    background-color: #C4032A;
+  }
+
+  .sm\:focus\:bg-backdark:focus {
+    background-color: #1f212e;
+  }
+
+  .sm\:focus\:bg-boxdark:focus {
+    background-color: #242a42;
+  }
+
+  .sm\:focus\:bg-boxoverD:focus {
+    background-color: #333a57;
+  }
+
+  .sm\:focus\:bg-backlight:focus {
+    background-color: #fff;
+  }
+
+  .sm\:focus\:bg-boxlight:focus {
+    background-color: #f0f2fa;
+  }
+
+  .sm\:focus\:bg-boxover:focus {
+    background-color: #e1e4f0;
   }
 
   .sm\:bg-bottom {
@@ -15579,6 +16617,50 @@ video {
     border-color: #702459;
   }
 
+  .sm\:border-verdelima {
+    border-color: #1DB489;
+  }
+
+  .sm\:border-rojoBrillante {
+    border-color: #DC414C;
+  }
+
+  .sm\:border-facebook {
+    border-color: #1CA0F2;
+  }
+
+  .sm\:border-twitter {
+    border-color: #00BFFF;
+  }
+
+  .sm\:border-youtube {
+    border-color: #C4032A;
+  }
+
+  .sm\:border-backdark {
+    border-color: #1f212e;
+  }
+
+  .sm\:border-boxdark {
+    border-color: #242a42;
+  }
+
+  .sm\:border-boxoverD {
+    border-color: #333a57;
+  }
+
+  .sm\:border-backlight {
+    border-color: #fff;
+  }
+
+  .sm\:border-boxlight {
+    border-color: #f0f2fa;
+  }
+
+  .sm\:border-boxover {
+    border-color: #e1e4f0;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -15951,6 +17033,50 @@ video {
     border-color: #702459;
   }
 
+  .sm\:hover\:border-verdelima:hover {
+    border-color: #1DB489;
+  }
+
+  .sm\:hover\:border-rojoBrillante:hover {
+    border-color: #DC414C;
+  }
+
+  .sm\:hover\:border-facebook:hover {
+    border-color: #1CA0F2;
+  }
+
+  .sm\:hover\:border-twitter:hover {
+    border-color: #00BFFF;
+  }
+
+  .sm\:hover\:border-youtube:hover {
+    border-color: #C4032A;
+  }
+
+  .sm\:hover\:border-backdark:hover {
+    border-color: #1f212e;
+  }
+
+  .sm\:hover\:border-boxdark:hover {
+    border-color: #242a42;
+  }
+
+  .sm\:hover\:border-boxoverD:hover {
+    border-color: #333a57;
+  }
+
+  .sm\:hover\:border-backlight:hover {
+    border-color: #fff;
+  }
+
+  .sm\:hover\:border-boxlight:hover {
+    border-color: #f0f2fa;
+  }
+
+  .sm\:hover\:border-boxover:hover {
+    border-color: #e1e4f0;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -16321,6 +17447,50 @@ video {
 
   .sm\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .sm\:focus\:border-verdelima:focus {
+    border-color: #1DB489;
+  }
+
+  .sm\:focus\:border-rojoBrillante:focus {
+    border-color: #DC414C;
+  }
+
+  .sm\:focus\:border-facebook:focus {
+    border-color: #1CA0F2;
+  }
+
+  .sm\:focus\:border-twitter:focus {
+    border-color: #00BFFF;
+  }
+
+  .sm\:focus\:border-youtube:focus {
+    border-color: #C4032A;
+  }
+
+  .sm\:focus\:border-backdark:focus {
+    border-color: #1f212e;
+  }
+
+  .sm\:focus\:border-boxdark:focus {
+    border-color: #242a42;
+  }
+
+  .sm\:focus\:border-boxoverD:focus {
+    border-color: #333a57;
+  }
+
+  .sm\:focus\:border-backlight:focus {
+    border-color: #fff;
+  }
+
+  .sm\:focus\:border-boxlight:focus {
+    border-color: #f0f2fa;
+  }
+
+  .sm\:focus\:border-boxover:focus {
+    border-color: #e1e4f0;
   }
 
   .sm\:rounded-none {
@@ -17018,15 +18188,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Inter, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -21157,6 +22319,226 @@ video {
     color: #702459;
   }
 
+  .sm\:placeholder-verdelima::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:placeholder-verdelima::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:placeholder-verdelima:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:placeholder-verdelima::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:placeholder-verdelima::placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:placeholder-rojoBrillante::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:placeholder-rojoBrillante::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:placeholder-rojoBrillante:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:placeholder-rojoBrillante::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:placeholder-rojoBrillante::placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:placeholder-facebook::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:placeholder-facebook::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:placeholder-facebook:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:placeholder-facebook::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:placeholder-facebook::placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:placeholder-twitter::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:placeholder-twitter::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:placeholder-twitter:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:placeholder-twitter::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:placeholder-twitter::placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:placeholder-youtube::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:placeholder-youtube::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:placeholder-youtube:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:placeholder-youtube::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:placeholder-youtube::placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:placeholder-backdark::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:placeholder-backdark::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:placeholder-backdark:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:placeholder-backdark::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:placeholder-backdark::placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:placeholder-boxdark::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:placeholder-boxdark::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:placeholder-boxdark:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:placeholder-boxdark::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:placeholder-boxdark::placeholder {
+    color: #242a42;
+  }
+
+  .sm\:placeholder-boxoverD::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:placeholder-boxoverD::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:placeholder-boxoverD:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:placeholder-boxoverD::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:placeholder-boxoverD::placeholder {
+    color: #333a57;
+  }
+
+  .sm\:placeholder-backlight::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .sm\:placeholder-backlight::-moz-placeholder {
+    color: #fff;
+  }
+
+  .sm\:placeholder-backlight:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .sm\:placeholder-backlight::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .sm\:placeholder-backlight::placeholder {
+    color: #fff;
+  }
+
+  .sm\:placeholder-boxlight::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:placeholder-boxlight::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:placeholder-boxlight:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:placeholder-boxlight::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:placeholder-boxlight::placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:placeholder-boxover::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:placeholder-boxover::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:placeholder-boxover:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:placeholder-boxover::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:placeholder-boxover::placeholder {
+    color: #e1e4f0;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -23017,6 +24399,226 @@ video {
     color: #702459;
   }
 
+  .sm\:focus\:placeholder-verdelima:focus::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:focus\:placeholder-verdelima:focus::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:focus\:placeholder-verdelima:focus:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:focus\:placeholder-verdelima:focus::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:focus\:placeholder-verdelima:focus::placeholder {
+    color: #1DB489;
+  }
+
+  .sm\:focus\:placeholder-rojoBrillante:focus::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:focus\:placeholder-rojoBrillante:focus::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:focus\:placeholder-rojoBrillante:focus:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:focus\:placeholder-rojoBrillante:focus::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:focus\:placeholder-rojoBrillante:focus::placeholder {
+    color: #DC414C;
+  }
+
+  .sm\:focus\:placeholder-facebook:focus::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:focus\:placeholder-facebook:focus::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:focus\:placeholder-facebook:focus:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:focus\:placeholder-facebook:focus::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:focus\:placeholder-facebook:focus::placeholder {
+    color: #1CA0F2;
+  }
+
+  .sm\:focus\:placeholder-twitter:focus::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:focus\:placeholder-twitter:focus::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:focus\:placeholder-twitter:focus:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:focus\:placeholder-twitter:focus::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:focus\:placeholder-twitter:focus::placeholder {
+    color: #00BFFF;
+  }
+
+  .sm\:focus\:placeholder-youtube:focus::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:focus\:placeholder-youtube:focus::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:focus\:placeholder-youtube:focus:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:focus\:placeholder-youtube:focus::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:focus\:placeholder-youtube:focus::placeholder {
+    color: #C4032A;
+  }
+
+  .sm\:focus\:placeholder-backdark:focus::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:focus\:placeholder-backdark:focus::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:focus\:placeholder-backdark:focus:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:focus\:placeholder-backdark:focus::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:focus\:placeholder-backdark:focus::placeholder {
+    color: #1f212e;
+  }
+
+  .sm\:focus\:placeholder-boxdark:focus::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:focus\:placeholder-boxdark:focus::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:focus\:placeholder-boxdark:focus:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:focus\:placeholder-boxdark:focus::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .sm\:focus\:placeholder-boxdark:focus::placeholder {
+    color: #242a42;
+  }
+
+  .sm\:focus\:placeholder-boxoverD:focus::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:focus\:placeholder-boxoverD:focus::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:focus\:placeholder-boxoverD:focus:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:focus\:placeholder-boxoverD:focus::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .sm\:focus\:placeholder-boxoverD:focus::placeholder {
+    color: #333a57;
+  }
+
+  .sm\:focus\:placeholder-backlight:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .sm\:focus\:placeholder-backlight:focus::-moz-placeholder {
+    color: #fff;
+  }
+
+  .sm\:focus\:placeholder-backlight:focus:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .sm\:focus\:placeholder-backlight:focus::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .sm\:focus\:placeholder-backlight:focus::placeholder {
+    color: #fff;
+  }
+
+  .sm\:focus\:placeholder-boxlight:focus::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:focus\:placeholder-boxlight:focus::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:focus\:placeholder-boxlight:focus:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:focus\:placeholder-boxlight:focus::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:focus\:placeholder-boxlight:focus::placeholder {
+    color: #f0f2fa;
+  }
+
+  .sm\:focus\:placeholder-boxover:focus::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:focus\:placeholder-boxover:focus::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:focus\:placeholder-boxover:focus:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:focus\:placeholder-boxover:focus::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .sm\:focus\:placeholder-boxover:focus::placeholder {
+    color: #e1e4f0;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -23664,6 +25266,50 @@ video {
     color: #702459;
   }
 
+  .sm\:text-verdelima {
+    color: #1DB489;
+  }
+
+  .sm\:text-rojoBrillante {
+    color: #DC414C;
+  }
+
+  .sm\:text-facebook {
+    color: #1CA0F2;
+  }
+
+  .sm\:text-twitter {
+    color: #00BFFF;
+  }
+
+  .sm\:text-youtube {
+    color: #C4032A;
+  }
+
+  .sm\:text-backdark {
+    color: #1f212e;
+  }
+
+  .sm\:text-boxdark {
+    color: #242a42;
+  }
+
+  .sm\:text-boxoverD {
+    color: #333a57;
+  }
+
+  .sm\:text-backlight {
+    color: #fff;
+  }
+
+  .sm\:text-boxlight {
+    color: #f0f2fa;
+  }
+
+  .sm\:text-boxover {
+    color: #e1e4f0;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -24036,6 +25682,50 @@ video {
     color: #702459;
   }
 
+  .sm\:hover\:text-verdelima:hover {
+    color: #1DB489;
+  }
+
+  .sm\:hover\:text-rojoBrillante:hover {
+    color: #DC414C;
+  }
+
+  .sm\:hover\:text-facebook:hover {
+    color: #1CA0F2;
+  }
+
+  .sm\:hover\:text-twitter:hover {
+    color: #00BFFF;
+  }
+
+  .sm\:hover\:text-youtube:hover {
+    color: #C4032A;
+  }
+
+  .sm\:hover\:text-backdark:hover {
+    color: #1f212e;
+  }
+
+  .sm\:hover\:text-boxdark:hover {
+    color: #242a42;
+  }
+
+  .sm\:hover\:text-boxoverD:hover {
+    color: #333a57;
+  }
+
+  .sm\:hover\:text-backlight:hover {
+    color: #fff;
+  }
+
+  .sm\:hover\:text-boxlight:hover {
+    color: #f0f2fa;
+  }
+
+  .sm\:hover\:text-boxover:hover {
+    color: #e1e4f0;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -24406,6 +26096,50 @@ video {
 
   .sm\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .sm\:focus\:text-verdelima:focus {
+    color: #1DB489;
+  }
+
+  .sm\:focus\:text-rojoBrillante:focus {
+    color: #DC414C;
+  }
+
+  .sm\:focus\:text-facebook:focus {
+    color: #1CA0F2;
+  }
+
+  .sm\:focus\:text-twitter:focus {
+    color: #00BFFF;
+  }
+
+  .sm\:focus\:text-youtube:focus {
+    color: #C4032A;
+  }
+
+  .sm\:focus\:text-backdark:focus {
+    color: #1f212e;
+  }
+
+  .sm\:focus\:text-boxdark:focus {
+    color: #242a42;
+  }
+
+  .sm\:focus\:text-boxoverD:focus {
+    color: #333a57;
+  }
+
+  .sm\:focus\:text-backlight:focus {
+    color: #fff;
+  }
+
+  .sm\:focus\:text-boxlight:focus {
+    color: #f0f2fa;
+  }
+
+  .sm\:focus\:text-boxover:focus {
+    color: #e1e4f0;
   }
 
   .sm\:text-xs {
@@ -27708,6 +29442,50 @@ video {
     background-color: #702459;
   }
 
+  .md\:bg-verdelima {
+    background-color: #1DB489;
+  }
+
+  .md\:bg-rojoBrillante {
+    background-color: #DC414C;
+  }
+
+  .md\:bg-facebook {
+    background-color: #1CA0F2;
+  }
+
+  .md\:bg-twitter {
+    background-color: #00BFFF;
+  }
+
+  .md\:bg-youtube {
+    background-color: #C4032A;
+  }
+
+  .md\:bg-backdark {
+    background-color: #1f212e;
+  }
+
+  .md\:bg-boxdark {
+    background-color: #242a42;
+  }
+
+  .md\:bg-boxoverD {
+    background-color: #333a57;
+  }
+
+  .md\:bg-backlight {
+    background-color: #fff;
+  }
+
+  .md\:bg-boxlight {
+    background-color: #f0f2fa;
+  }
+
+  .md\:bg-boxover {
+    background-color: #e1e4f0;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -28080,6 +29858,50 @@ video {
     background-color: #702459;
   }
 
+  .md\:hover\:bg-verdelima:hover {
+    background-color: #1DB489;
+  }
+
+  .md\:hover\:bg-rojoBrillante:hover {
+    background-color: #DC414C;
+  }
+
+  .md\:hover\:bg-facebook:hover {
+    background-color: #1CA0F2;
+  }
+
+  .md\:hover\:bg-twitter:hover {
+    background-color: #00BFFF;
+  }
+
+  .md\:hover\:bg-youtube:hover {
+    background-color: #C4032A;
+  }
+
+  .md\:hover\:bg-backdark:hover {
+    background-color: #1f212e;
+  }
+
+  .md\:hover\:bg-boxdark:hover {
+    background-color: #242a42;
+  }
+
+  .md\:hover\:bg-boxoverD:hover {
+    background-color: #333a57;
+  }
+
+  .md\:hover\:bg-backlight:hover {
+    background-color: #fff;
+  }
+
+  .md\:hover\:bg-boxlight:hover {
+    background-color: #f0f2fa;
+  }
+
+  .md\:hover\:bg-boxover:hover {
+    background-color: #e1e4f0;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -28450,6 +30272,50 @@ video {
 
   .md\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .md\:focus\:bg-verdelima:focus {
+    background-color: #1DB489;
+  }
+
+  .md\:focus\:bg-rojoBrillante:focus {
+    background-color: #DC414C;
+  }
+
+  .md\:focus\:bg-facebook:focus {
+    background-color: #1CA0F2;
+  }
+
+  .md\:focus\:bg-twitter:focus {
+    background-color: #00BFFF;
+  }
+
+  .md\:focus\:bg-youtube:focus {
+    background-color: #C4032A;
+  }
+
+  .md\:focus\:bg-backdark:focus {
+    background-color: #1f212e;
+  }
+
+  .md\:focus\:bg-boxdark:focus {
+    background-color: #242a42;
+  }
+
+  .md\:focus\:bg-boxoverD:focus {
+    background-color: #333a57;
+  }
+
+  .md\:focus\:bg-backlight:focus {
+    background-color: #fff;
+  }
+
+  .md\:focus\:bg-boxlight:focus {
+    background-color: #f0f2fa;
+  }
+
+  .md\:focus\:bg-boxover:focus {
+    background-color: #e1e4f0;
   }
 
   .md\:bg-bottom {
@@ -28904,6 +30770,50 @@ video {
     border-color: #702459;
   }
 
+  .md\:border-verdelima {
+    border-color: #1DB489;
+  }
+
+  .md\:border-rojoBrillante {
+    border-color: #DC414C;
+  }
+
+  .md\:border-facebook {
+    border-color: #1CA0F2;
+  }
+
+  .md\:border-twitter {
+    border-color: #00BFFF;
+  }
+
+  .md\:border-youtube {
+    border-color: #C4032A;
+  }
+
+  .md\:border-backdark {
+    border-color: #1f212e;
+  }
+
+  .md\:border-boxdark {
+    border-color: #242a42;
+  }
+
+  .md\:border-boxoverD {
+    border-color: #333a57;
+  }
+
+  .md\:border-backlight {
+    border-color: #fff;
+  }
+
+  .md\:border-boxlight {
+    border-color: #f0f2fa;
+  }
+
+  .md\:border-boxover {
+    border-color: #e1e4f0;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -29276,6 +31186,50 @@ video {
     border-color: #702459;
   }
 
+  .md\:hover\:border-verdelima:hover {
+    border-color: #1DB489;
+  }
+
+  .md\:hover\:border-rojoBrillante:hover {
+    border-color: #DC414C;
+  }
+
+  .md\:hover\:border-facebook:hover {
+    border-color: #1CA0F2;
+  }
+
+  .md\:hover\:border-twitter:hover {
+    border-color: #00BFFF;
+  }
+
+  .md\:hover\:border-youtube:hover {
+    border-color: #C4032A;
+  }
+
+  .md\:hover\:border-backdark:hover {
+    border-color: #1f212e;
+  }
+
+  .md\:hover\:border-boxdark:hover {
+    border-color: #242a42;
+  }
+
+  .md\:hover\:border-boxoverD:hover {
+    border-color: #333a57;
+  }
+
+  .md\:hover\:border-backlight:hover {
+    border-color: #fff;
+  }
+
+  .md\:hover\:border-boxlight:hover {
+    border-color: #f0f2fa;
+  }
+
+  .md\:hover\:border-boxover:hover {
+    border-color: #e1e4f0;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -29646,6 +31600,50 @@ video {
 
   .md\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .md\:focus\:border-verdelima:focus {
+    border-color: #1DB489;
+  }
+
+  .md\:focus\:border-rojoBrillante:focus {
+    border-color: #DC414C;
+  }
+
+  .md\:focus\:border-facebook:focus {
+    border-color: #1CA0F2;
+  }
+
+  .md\:focus\:border-twitter:focus {
+    border-color: #00BFFF;
+  }
+
+  .md\:focus\:border-youtube:focus {
+    border-color: #C4032A;
+  }
+
+  .md\:focus\:border-backdark:focus {
+    border-color: #1f212e;
+  }
+
+  .md\:focus\:border-boxdark:focus {
+    border-color: #242a42;
+  }
+
+  .md\:focus\:border-boxoverD:focus {
+    border-color: #333a57;
+  }
+
+  .md\:focus\:border-backlight:focus {
+    border-color: #fff;
+  }
+
+  .md\:focus\:border-boxlight:focus {
+    border-color: #f0f2fa;
+  }
+
+  .md\:focus\:border-boxover:focus {
+    border-color: #e1e4f0;
   }
 
   .md\:rounded-none {
@@ -30343,15 +32341,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Inter, sans-serif;
   }
 
   .md\:font-hairline {
@@ -34482,6 +36472,226 @@ video {
     color: #702459;
   }
 
+  .md\:placeholder-verdelima::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:placeholder-verdelima::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:placeholder-verdelima:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:placeholder-verdelima::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:placeholder-verdelima::placeholder {
+    color: #1DB489;
+  }
+
+  .md\:placeholder-rojoBrillante::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:placeholder-rojoBrillante::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:placeholder-rojoBrillante:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:placeholder-rojoBrillante::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:placeholder-rojoBrillante::placeholder {
+    color: #DC414C;
+  }
+
+  .md\:placeholder-facebook::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:placeholder-facebook::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:placeholder-facebook:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:placeholder-facebook::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:placeholder-facebook::placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:placeholder-twitter::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:placeholder-twitter::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:placeholder-twitter:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:placeholder-twitter::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:placeholder-twitter::placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:placeholder-youtube::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:placeholder-youtube::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:placeholder-youtube:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:placeholder-youtube::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:placeholder-youtube::placeholder {
+    color: #C4032A;
+  }
+
+  .md\:placeholder-backdark::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:placeholder-backdark::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:placeholder-backdark:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:placeholder-backdark::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:placeholder-backdark::placeholder {
+    color: #1f212e;
+  }
+
+  .md\:placeholder-boxdark::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .md\:placeholder-boxdark::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .md\:placeholder-boxdark:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .md\:placeholder-boxdark::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .md\:placeholder-boxdark::placeholder {
+    color: #242a42;
+  }
+
+  .md\:placeholder-boxoverD::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .md\:placeholder-boxoverD::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .md\:placeholder-boxoverD:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .md\:placeholder-boxoverD::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .md\:placeholder-boxoverD::placeholder {
+    color: #333a57;
+  }
+
+  .md\:placeholder-backlight::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .md\:placeholder-backlight::-moz-placeholder {
+    color: #fff;
+  }
+
+  .md\:placeholder-backlight:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .md\:placeholder-backlight::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .md\:placeholder-backlight::placeholder {
+    color: #fff;
+  }
+
+  .md\:placeholder-boxlight::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:placeholder-boxlight::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:placeholder-boxlight:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:placeholder-boxlight::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:placeholder-boxlight::placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:placeholder-boxover::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:placeholder-boxover::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:placeholder-boxover:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:placeholder-boxover::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:placeholder-boxover::placeholder {
+    color: #e1e4f0;
+  }
+
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -36342,6 +38552,226 @@ video {
     color: #702459;
   }
 
+  .md\:focus\:placeholder-verdelima:focus::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:focus\:placeholder-verdelima:focus::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:focus\:placeholder-verdelima:focus:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:focus\:placeholder-verdelima:focus::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .md\:focus\:placeholder-verdelima:focus::placeholder {
+    color: #1DB489;
+  }
+
+  .md\:focus\:placeholder-rojoBrillante:focus::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:focus\:placeholder-rojoBrillante:focus::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:focus\:placeholder-rojoBrillante:focus:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:focus\:placeholder-rojoBrillante:focus::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .md\:focus\:placeholder-rojoBrillante:focus::placeholder {
+    color: #DC414C;
+  }
+
+  .md\:focus\:placeholder-facebook:focus::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:focus\:placeholder-facebook:focus::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:focus\:placeholder-facebook:focus:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:focus\:placeholder-facebook:focus::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:focus\:placeholder-facebook:focus::placeholder {
+    color: #1CA0F2;
+  }
+
+  .md\:focus\:placeholder-twitter:focus::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:focus\:placeholder-twitter:focus::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:focus\:placeholder-twitter:focus:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:focus\:placeholder-twitter:focus::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:focus\:placeholder-twitter:focus::placeholder {
+    color: #00BFFF;
+  }
+
+  .md\:focus\:placeholder-youtube:focus::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:focus\:placeholder-youtube:focus::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:focus\:placeholder-youtube:focus:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:focus\:placeholder-youtube:focus::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .md\:focus\:placeholder-youtube:focus::placeholder {
+    color: #C4032A;
+  }
+
+  .md\:focus\:placeholder-backdark:focus::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:focus\:placeholder-backdark:focus::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:focus\:placeholder-backdark:focus:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:focus\:placeholder-backdark:focus::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .md\:focus\:placeholder-backdark:focus::placeholder {
+    color: #1f212e;
+  }
+
+  .md\:focus\:placeholder-boxdark:focus::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .md\:focus\:placeholder-boxdark:focus::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .md\:focus\:placeholder-boxdark:focus:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .md\:focus\:placeholder-boxdark:focus::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .md\:focus\:placeholder-boxdark:focus::placeholder {
+    color: #242a42;
+  }
+
+  .md\:focus\:placeholder-boxoverD:focus::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .md\:focus\:placeholder-boxoverD:focus::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .md\:focus\:placeholder-boxoverD:focus:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .md\:focus\:placeholder-boxoverD:focus::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .md\:focus\:placeholder-boxoverD:focus::placeholder {
+    color: #333a57;
+  }
+
+  .md\:focus\:placeholder-backlight:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .md\:focus\:placeholder-backlight:focus::-moz-placeholder {
+    color: #fff;
+  }
+
+  .md\:focus\:placeholder-backlight:focus:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .md\:focus\:placeholder-backlight:focus::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .md\:focus\:placeholder-backlight:focus::placeholder {
+    color: #fff;
+  }
+
+  .md\:focus\:placeholder-boxlight:focus::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:focus\:placeholder-boxlight:focus::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:focus\:placeholder-boxlight:focus:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:focus\:placeholder-boxlight:focus::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:focus\:placeholder-boxlight:focus::placeholder {
+    color: #f0f2fa;
+  }
+
+  .md\:focus\:placeholder-boxover:focus::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:focus\:placeholder-boxover:focus::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:focus\:placeholder-boxover:focus:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:focus\:placeholder-boxover:focus::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .md\:focus\:placeholder-boxover:focus::placeholder {
+    color: #e1e4f0;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -36989,6 +39419,50 @@ video {
     color: #702459;
   }
 
+  .md\:text-verdelima {
+    color: #1DB489;
+  }
+
+  .md\:text-rojoBrillante {
+    color: #DC414C;
+  }
+
+  .md\:text-facebook {
+    color: #1CA0F2;
+  }
+
+  .md\:text-twitter {
+    color: #00BFFF;
+  }
+
+  .md\:text-youtube {
+    color: #C4032A;
+  }
+
+  .md\:text-backdark {
+    color: #1f212e;
+  }
+
+  .md\:text-boxdark {
+    color: #242a42;
+  }
+
+  .md\:text-boxoverD {
+    color: #333a57;
+  }
+
+  .md\:text-backlight {
+    color: #fff;
+  }
+
+  .md\:text-boxlight {
+    color: #f0f2fa;
+  }
+
+  .md\:text-boxover {
+    color: #e1e4f0;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -37361,6 +39835,50 @@ video {
     color: #702459;
   }
 
+  .md\:hover\:text-verdelima:hover {
+    color: #1DB489;
+  }
+
+  .md\:hover\:text-rojoBrillante:hover {
+    color: #DC414C;
+  }
+
+  .md\:hover\:text-facebook:hover {
+    color: #1CA0F2;
+  }
+
+  .md\:hover\:text-twitter:hover {
+    color: #00BFFF;
+  }
+
+  .md\:hover\:text-youtube:hover {
+    color: #C4032A;
+  }
+
+  .md\:hover\:text-backdark:hover {
+    color: #1f212e;
+  }
+
+  .md\:hover\:text-boxdark:hover {
+    color: #242a42;
+  }
+
+  .md\:hover\:text-boxoverD:hover {
+    color: #333a57;
+  }
+
+  .md\:hover\:text-backlight:hover {
+    color: #fff;
+  }
+
+  .md\:hover\:text-boxlight:hover {
+    color: #f0f2fa;
+  }
+
+  .md\:hover\:text-boxover:hover {
+    color: #e1e4f0;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -37731,6 +40249,50 @@ video {
 
   .md\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .md\:focus\:text-verdelima:focus {
+    color: #1DB489;
+  }
+
+  .md\:focus\:text-rojoBrillante:focus {
+    color: #DC414C;
+  }
+
+  .md\:focus\:text-facebook:focus {
+    color: #1CA0F2;
+  }
+
+  .md\:focus\:text-twitter:focus {
+    color: #00BFFF;
+  }
+
+  .md\:focus\:text-youtube:focus {
+    color: #C4032A;
+  }
+
+  .md\:focus\:text-backdark:focus {
+    color: #1f212e;
+  }
+
+  .md\:focus\:text-boxdark:focus {
+    color: #242a42;
+  }
+
+  .md\:focus\:text-boxoverD:focus {
+    color: #333a57;
+  }
+
+  .md\:focus\:text-backlight:focus {
+    color: #fff;
+  }
+
+  .md\:focus\:text-boxlight:focus {
+    color: #f0f2fa;
+  }
+
+  .md\:focus\:text-boxover:focus {
+    color: #e1e4f0;
   }
 
   .md\:text-xs {
@@ -41033,6 +43595,50 @@ video {
     background-color: #702459;
   }
 
+  .lg\:bg-verdelima {
+    background-color: #1DB489;
+  }
+
+  .lg\:bg-rojoBrillante {
+    background-color: #DC414C;
+  }
+
+  .lg\:bg-facebook {
+    background-color: #1CA0F2;
+  }
+
+  .lg\:bg-twitter {
+    background-color: #00BFFF;
+  }
+
+  .lg\:bg-youtube {
+    background-color: #C4032A;
+  }
+
+  .lg\:bg-backdark {
+    background-color: #1f212e;
+  }
+
+  .lg\:bg-boxdark {
+    background-color: #242a42;
+  }
+
+  .lg\:bg-boxoverD {
+    background-color: #333a57;
+  }
+
+  .lg\:bg-backlight {
+    background-color: #fff;
+  }
+
+  .lg\:bg-boxlight {
+    background-color: #f0f2fa;
+  }
+
+  .lg\:bg-boxover {
+    background-color: #e1e4f0;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -41405,6 +44011,50 @@ video {
     background-color: #702459;
   }
 
+  .lg\:hover\:bg-verdelima:hover {
+    background-color: #1DB489;
+  }
+
+  .lg\:hover\:bg-rojoBrillante:hover {
+    background-color: #DC414C;
+  }
+
+  .lg\:hover\:bg-facebook:hover {
+    background-color: #1CA0F2;
+  }
+
+  .lg\:hover\:bg-twitter:hover {
+    background-color: #00BFFF;
+  }
+
+  .lg\:hover\:bg-youtube:hover {
+    background-color: #C4032A;
+  }
+
+  .lg\:hover\:bg-backdark:hover {
+    background-color: #1f212e;
+  }
+
+  .lg\:hover\:bg-boxdark:hover {
+    background-color: #242a42;
+  }
+
+  .lg\:hover\:bg-boxoverD:hover {
+    background-color: #333a57;
+  }
+
+  .lg\:hover\:bg-backlight:hover {
+    background-color: #fff;
+  }
+
+  .lg\:hover\:bg-boxlight:hover {
+    background-color: #f0f2fa;
+  }
+
+  .lg\:hover\:bg-boxover:hover {
+    background-color: #e1e4f0;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -41775,6 +44425,50 @@ video {
 
   .lg\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .lg\:focus\:bg-verdelima:focus {
+    background-color: #1DB489;
+  }
+
+  .lg\:focus\:bg-rojoBrillante:focus {
+    background-color: #DC414C;
+  }
+
+  .lg\:focus\:bg-facebook:focus {
+    background-color: #1CA0F2;
+  }
+
+  .lg\:focus\:bg-twitter:focus {
+    background-color: #00BFFF;
+  }
+
+  .lg\:focus\:bg-youtube:focus {
+    background-color: #C4032A;
+  }
+
+  .lg\:focus\:bg-backdark:focus {
+    background-color: #1f212e;
+  }
+
+  .lg\:focus\:bg-boxdark:focus {
+    background-color: #242a42;
+  }
+
+  .lg\:focus\:bg-boxoverD:focus {
+    background-color: #333a57;
+  }
+
+  .lg\:focus\:bg-backlight:focus {
+    background-color: #fff;
+  }
+
+  .lg\:focus\:bg-boxlight:focus {
+    background-color: #f0f2fa;
+  }
+
+  .lg\:focus\:bg-boxover:focus {
+    background-color: #e1e4f0;
   }
 
   .lg\:bg-bottom {
@@ -42229,6 +44923,50 @@ video {
     border-color: #702459;
   }
 
+  .lg\:border-verdelima {
+    border-color: #1DB489;
+  }
+
+  .lg\:border-rojoBrillante {
+    border-color: #DC414C;
+  }
+
+  .lg\:border-facebook {
+    border-color: #1CA0F2;
+  }
+
+  .lg\:border-twitter {
+    border-color: #00BFFF;
+  }
+
+  .lg\:border-youtube {
+    border-color: #C4032A;
+  }
+
+  .lg\:border-backdark {
+    border-color: #1f212e;
+  }
+
+  .lg\:border-boxdark {
+    border-color: #242a42;
+  }
+
+  .lg\:border-boxoverD {
+    border-color: #333a57;
+  }
+
+  .lg\:border-backlight {
+    border-color: #fff;
+  }
+
+  .lg\:border-boxlight {
+    border-color: #f0f2fa;
+  }
+
+  .lg\:border-boxover {
+    border-color: #e1e4f0;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -42601,6 +45339,50 @@ video {
     border-color: #702459;
   }
 
+  .lg\:hover\:border-verdelima:hover {
+    border-color: #1DB489;
+  }
+
+  .lg\:hover\:border-rojoBrillante:hover {
+    border-color: #DC414C;
+  }
+
+  .lg\:hover\:border-facebook:hover {
+    border-color: #1CA0F2;
+  }
+
+  .lg\:hover\:border-twitter:hover {
+    border-color: #00BFFF;
+  }
+
+  .lg\:hover\:border-youtube:hover {
+    border-color: #C4032A;
+  }
+
+  .lg\:hover\:border-backdark:hover {
+    border-color: #1f212e;
+  }
+
+  .lg\:hover\:border-boxdark:hover {
+    border-color: #242a42;
+  }
+
+  .lg\:hover\:border-boxoverD:hover {
+    border-color: #333a57;
+  }
+
+  .lg\:hover\:border-backlight:hover {
+    border-color: #fff;
+  }
+
+  .lg\:hover\:border-boxlight:hover {
+    border-color: #f0f2fa;
+  }
+
+  .lg\:hover\:border-boxover:hover {
+    border-color: #e1e4f0;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -42971,6 +45753,50 @@ video {
 
   .lg\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .lg\:focus\:border-verdelima:focus {
+    border-color: #1DB489;
+  }
+
+  .lg\:focus\:border-rojoBrillante:focus {
+    border-color: #DC414C;
+  }
+
+  .lg\:focus\:border-facebook:focus {
+    border-color: #1CA0F2;
+  }
+
+  .lg\:focus\:border-twitter:focus {
+    border-color: #00BFFF;
+  }
+
+  .lg\:focus\:border-youtube:focus {
+    border-color: #C4032A;
+  }
+
+  .lg\:focus\:border-backdark:focus {
+    border-color: #1f212e;
+  }
+
+  .lg\:focus\:border-boxdark:focus {
+    border-color: #242a42;
+  }
+
+  .lg\:focus\:border-boxoverD:focus {
+    border-color: #333a57;
+  }
+
+  .lg\:focus\:border-backlight:focus {
+    border-color: #fff;
+  }
+
+  .lg\:focus\:border-boxlight:focus {
+    border-color: #f0f2fa;
+  }
+
+  .lg\:focus\:border-boxover:focus {
+    border-color: #e1e4f0;
   }
 
   .lg\:rounded-none {
@@ -43668,15 +46494,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Inter, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -47807,6 +50625,226 @@ video {
     color: #702459;
   }
 
+  .lg\:placeholder-verdelima::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:placeholder-verdelima::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:placeholder-verdelima:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:placeholder-verdelima::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:placeholder-verdelima::placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:placeholder-rojoBrillante::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:placeholder-rojoBrillante::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:placeholder-rojoBrillante:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:placeholder-rojoBrillante::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:placeholder-rojoBrillante::placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:placeholder-facebook::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:placeholder-facebook::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:placeholder-facebook:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:placeholder-facebook::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:placeholder-facebook::placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:placeholder-twitter::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:placeholder-twitter::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:placeholder-twitter:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:placeholder-twitter::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:placeholder-twitter::placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:placeholder-youtube::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:placeholder-youtube::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:placeholder-youtube:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:placeholder-youtube::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:placeholder-youtube::placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:placeholder-backdark::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:placeholder-backdark::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:placeholder-backdark:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:placeholder-backdark::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:placeholder-backdark::placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:placeholder-boxdark::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:placeholder-boxdark::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:placeholder-boxdark:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:placeholder-boxdark::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:placeholder-boxdark::placeholder {
+    color: #242a42;
+  }
+
+  .lg\:placeholder-boxoverD::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:placeholder-boxoverD::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:placeholder-boxoverD:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:placeholder-boxoverD::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:placeholder-boxoverD::placeholder {
+    color: #333a57;
+  }
+
+  .lg\:placeholder-backlight::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .lg\:placeholder-backlight::-moz-placeholder {
+    color: #fff;
+  }
+
+  .lg\:placeholder-backlight:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .lg\:placeholder-backlight::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .lg\:placeholder-backlight::placeholder {
+    color: #fff;
+  }
+
+  .lg\:placeholder-boxlight::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:placeholder-boxlight::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:placeholder-boxlight:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:placeholder-boxlight::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:placeholder-boxlight::placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:placeholder-boxover::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:placeholder-boxover::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:placeholder-boxover:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:placeholder-boxover::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:placeholder-boxover::placeholder {
+    color: #e1e4f0;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -49667,6 +52705,226 @@ video {
     color: #702459;
   }
 
+  .lg\:focus\:placeholder-verdelima:focus::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:focus\:placeholder-verdelima:focus::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:focus\:placeholder-verdelima:focus:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:focus\:placeholder-verdelima:focus::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:focus\:placeholder-verdelima:focus::placeholder {
+    color: #1DB489;
+  }
+
+  .lg\:focus\:placeholder-rojoBrillante:focus::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:focus\:placeholder-rojoBrillante:focus::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:focus\:placeholder-rojoBrillante:focus:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:focus\:placeholder-rojoBrillante:focus::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:focus\:placeholder-rojoBrillante:focus::placeholder {
+    color: #DC414C;
+  }
+
+  .lg\:focus\:placeholder-facebook:focus::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:focus\:placeholder-facebook:focus::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:focus\:placeholder-facebook:focus:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:focus\:placeholder-facebook:focus::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:focus\:placeholder-facebook:focus::placeholder {
+    color: #1CA0F2;
+  }
+
+  .lg\:focus\:placeholder-twitter:focus::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:focus\:placeholder-twitter:focus::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:focus\:placeholder-twitter:focus:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:focus\:placeholder-twitter:focus::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:focus\:placeholder-twitter:focus::placeholder {
+    color: #00BFFF;
+  }
+
+  .lg\:focus\:placeholder-youtube:focus::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:focus\:placeholder-youtube:focus::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:focus\:placeholder-youtube:focus:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:focus\:placeholder-youtube:focus::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:focus\:placeholder-youtube:focus::placeholder {
+    color: #C4032A;
+  }
+
+  .lg\:focus\:placeholder-backdark:focus::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:focus\:placeholder-backdark:focus::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:focus\:placeholder-backdark:focus:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:focus\:placeholder-backdark:focus::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:focus\:placeholder-backdark:focus::placeholder {
+    color: #1f212e;
+  }
+
+  .lg\:focus\:placeholder-boxdark:focus::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:focus\:placeholder-boxdark:focus::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:focus\:placeholder-boxdark:focus:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:focus\:placeholder-boxdark:focus::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .lg\:focus\:placeholder-boxdark:focus::placeholder {
+    color: #242a42;
+  }
+
+  .lg\:focus\:placeholder-boxoverD:focus::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:focus\:placeholder-boxoverD:focus::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:focus\:placeholder-boxoverD:focus:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:focus\:placeholder-boxoverD:focus::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .lg\:focus\:placeholder-boxoverD:focus::placeholder {
+    color: #333a57;
+  }
+
+  .lg\:focus\:placeholder-backlight:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .lg\:focus\:placeholder-backlight:focus::-moz-placeholder {
+    color: #fff;
+  }
+
+  .lg\:focus\:placeholder-backlight:focus:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .lg\:focus\:placeholder-backlight:focus::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .lg\:focus\:placeholder-backlight:focus::placeholder {
+    color: #fff;
+  }
+
+  .lg\:focus\:placeholder-boxlight:focus::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:focus\:placeholder-boxlight:focus::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:focus\:placeholder-boxlight:focus:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:focus\:placeholder-boxlight:focus::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:focus\:placeholder-boxlight:focus::placeholder {
+    color: #f0f2fa;
+  }
+
+  .lg\:focus\:placeholder-boxover:focus::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:focus\:placeholder-boxover:focus::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:focus\:placeholder-boxover:focus:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:focus\:placeholder-boxover:focus::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .lg\:focus\:placeholder-boxover:focus::placeholder {
+    color: #e1e4f0;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -50314,6 +53572,50 @@ video {
     color: #702459;
   }
 
+  .lg\:text-verdelima {
+    color: #1DB489;
+  }
+
+  .lg\:text-rojoBrillante {
+    color: #DC414C;
+  }
+
+  .lg\:text-facebook {
+    color: #1CA0F2;
+  }
+
+  .lg\:text-twitter {
+    color: #00BFFF;
+  }
+
+  .lg\:text-youtube {
+    color: #C4032A;
+  }
+
+  .lg\:text-backdark {
+    color: #1f212e;
+  }
+
+  .lg\:text-boxdark {
+    color: #242a42;
+  }
+
+  .lg\:text-boxoverD {
+    color: #333a57;
+  }
+
+  .lg\:text-backlight {
+    color: #fff;
+  }
+
+  .lg\:text-boxlight {
+    color: #f0f2fa;
+  }
+
+  .lg\:text-boxover {
+    color: #e1e4f0;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -50686,6 +53988,50 @@ video {
     color: #702459;
   }
 
+  .lg\:hover\:text-verdelima:hover {
+    color: #1DB489;
+  }
+
+  .lg\:hover\:text-rojoBrillante:hover {
+    color: #DC414C;
+  }
+
+  .lg\:hover\:text-facebook:hover {
+    color: #1CA0F2;
+  }
+
+  .lg\:hover\:text-twitter:hover {
+    color: #00BFFF;
+  }
+
+  .lg\:hover\:text-youtube:hover {
+    color: #C4032A;
+  }
+
+  .lg\:hover\:text-backdark:hover {
+    color: #1f212e;
+  }
+
+  .lg\:hover\:text-boxdark:hover {
+    color: #242a42;
+  }
+
+  .lg\:hover\:text-boxoverD:hover {
+    color: #333a57;
+  }
+
+  .lg\:hover\:text-backlight:hover {
+    color: #fff;
+  }
+
+  .lg\:hover\:text-boxlight:hover {
+    color: #f0f2fa;
+  }
+
+  .lg\:hover\:text-boxover:hover {
+    color: #e1e4f0;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -51056,6 +54402,50 @@ video {
 
   .lg\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .lg\:focus\:text-verdelima:focus {
+    color: #1DB489;
+  }
+
+  .lg\:focus\:text-rojoBrillante:focus {
+    color: #DC414C;
+  }
+
+  .lg\:focus\:text-facebook:focus {
+    color: #1CA0F2;
+  }
+
+  .lg\:focus\:text-twitter:focus {
+    color: #00BFFF;
+  }
+
+  .lg\:focus\:text-youtube:focus {
+    color: #C4032A;
+  }
+
+  .lg\:focus\:text-backdark:focus {
+    color: #1f212e;
+  }
+
+  .lg\:focus\:text-boxdark:focus {
+    color: #242a42;
+  }
+
+  .lg\:focus\:text-boxoverD:focus {
+    color: #333a57;
+  }
+
+  .lg\:focus\:text-backlight:focus {
+    color: #fff;
+  }
+
+  .lg\:focus\:text-boxlight:focus {
+    color: #f0f2fa;
+  }
+
+  .lg\:focus\:text-boxover:focus {
+    color: #e1e4f0;
   }
 
   .lg\:text-xs {
@@ -54358,6 +57748,50 @@ video {
     background-color: #702459;
   }
 
+  .xl\:bg-verdelima {
+    background-color: #1DB489;
+  }
+
+  .xl\:bg-rojoBrillante {
+    background-color: #DC414C;
+  }
+
+  .xl\:bg-facebook {
+    background-color: #1CA0F2;
+  }
+
+  .xl\:bg-twitter {
+    background-color: #00BFFF;
+  }
+
+  .xl\:bg-youtube {
+    background-color: #C4032A;
+  }
+
+  .xl\:bg-backdark {
+    background-color: #1f212e;
+  }
+
+  .xl\:bg-boxdark {
+    background-color: #242a42;
+  }
+
+  .xl\:bg-boxoverD {
+    background-color: #333a57;
+  }
+
+  .xl\:bg-backlight {
+    background-color: #fff;
+  }
+
+  .xl\:bg-boxlight {
+    background-color: #f0f2fa;
+  }
+
+  .xl\:bg-boxover {
+    background-color: #e1e4f0;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -54730,6 +58164,50 @@ video {
     background-color: #702459;
   }
 
+  .xl\:hover\:bg-verdelima:hover {
+    background-color: #1DB489;
+  }
+
+  .xl\:hover\:bg-rojoBrillante:hover {
+    background-color: #DC414C;
+  }
+
+  .xl\:hover\:bg-facebook:hover {
+    background-color: #1CA0F2;
+  }
+
+  .xl\:hover\:bg-twitter:hover {
+    background-color: #00BFFF;
+  }
+
+  .xl\:hover\:bg-youtube:hover {
+    background-color: #C4032A;
+  }
+
+  .xl\:hover\:bg-backdark:hover {
+    background-color: #1f212e;
+  }
+
+  .xl\:hover\:bg-boxdark:hover {
+    background-color: #242a42;
+  }
+
+  .xl\:hover\:bg-boxoverD:hover {
+    background-color: #333a57;
+  }
+
+  .xl\:hover\:bg-backlight:hover {
+    background-color: #fff;
+  }
+
+  .xl\:hover\:bg-boxlight:hover {
+    background-color: #f0f2fa;
+  }
+
+  .xl\:hover\:bg-boxover:hover {
+    background-color: #e1e4f0;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -55100,6 +58578,50 @@ video {
 
   .xl\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .xl\:focus\:bg-verdelima:focus {
+    background-color: #1DB489;
+  }
+
+  .xl\:focus\:bg-rojoBrillante:focus {
+    background-color: #DC414C;
+  }
+
+  .xl\:focus\:bg-facebook:focus {
+    background-color: #1CA0F2;
+  }
+
+  .xl\:focus\:bg-twitter:focus {
+    background-color: #00BFFF;
+  }
+
+  .xl\:focus\:bg-youtube:focus {
+    background-color: #C4032A;
+  }
+
+  .xl\:focus\:bg-backdark:focus {
+    background-color: #1f212e;
+  }
+
+  .xl\:focus\:bg-boxdark:focus {
+    background-color: #242a42;
+  }
+
+  .xl\:focus\:bg-boxoverD:focus {
+    background-color: #333a57;
+  }
+
+  .xl\:focus\:bg-backlight:focus {
+    background-color: #fff;
+  }
+
+  .xl\:focus\:bg-boxlight:focus {
+    background-color: #f0f2fa;
+  }
+
+  .xl\:focus\:bg-boxover:focus {
+    background-color: #e1e4f0;
   }
 
   .xl\:bg-bottom {
@@ -55554,6 +59076,50 @@ video {
     border-color: #702459;
   }
 
+  .xl\:border-verdelima {
+    border-color: #1DB489;
+  }
+
+  .xl\:border-rojoBrillante {
+    border-color: #DC414C;
+  }
+
+  .xl\:border-facebook {
+    border-color: #1CA0F2;
+  }
+
+  .xl\:border-twitter {
+    border-color: #00BFFF;
+  }
+
+  .xl\:border-youtube {
+    border-color: #C4032A;
+  }
+
+  .xl\:border-backdark {
+    border-color: #1f212e;
+  }
+
+  .xl\:border-boxdark {
+    border-color: #242a42;
+  }
+
+  .xl\:border-boxoverD {
+    border-color: #333a57;
+  }
+
+  .xl\:border-backlight {
+    border-color: #fff;
+  }
+
+  .xl\:border-boxlight {
+    border-color: #f0f2fa;
+  }
+
+  .xl\:border-boxover {
+    border-color: #e1e4f0;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -55926,6 +59492,50 @@ video {
     border-color: #702459;
   }
 
+  .xl\:hover\:border-verdelima:hover {
+    border-color: #1DB489;
+  }
+
+  .xl\:hover\:border-rojoBrillante:hover {
+    border-color: #DC414C;
+  }
+
+  .xl\:hover\:border-facebook:hover {
+    border-color: #1CA0F2;
+  }
+
+  .xl\:hover\:border-twitter:hover {
+    border-color: #00BFFF;
+  }
+
+  .xl\:hover\:border-youtube:hover {
+    border-color: #C4032A;
+  }
+
+  .xl\:hover\:border-backdark:hover {
+    border-color: #1f212e;
+  }
+
+  .xl\:hover\:border-boxdark:hover {
+    border-color: #242a42;
+  }
+
+  .xl\:hover\:border-boxoverD:hover {
+    border-color: #333a57;
+  }
+
+  .xl\:hover\:border-backlight:hover {
+    border-color: #fff;
+  }
+
+  .xl\:hover\:border-boxlight:hover {
+    border-color: #f0f2fa;
+  }
+
+  .xl\:hover\:border-boxover:hover {
+    border-color: #e1e4f0;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -56296,6 +59906,50 @@ video {
 
   .xl\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .xl\:focus\:border-verdelima:focus {
+    border-color: #1DB489;
+  }
+
+  .xl\:focus\:border-rojoBrillante:focus {
+    border-color: #DC414C;
+  }
+
+  .xl\:focus\:border-facebook:focus {
+    border-color: #1CA0F2;
+  }
+
+  .xl\:focus\:border-twitter:focus {
+    border-color: #00BFFF;
+  }
+
+  .xl\:focus\:border-youtube:focus {
+    border-color: #C4032A;
+  }
+
+  .xl\:focus\:border-backdark:focus {
+    border-color: #1f212e;
+  }
+
+  .xl\:focus\:border-boxdark:focus {
+    border-color: #242a42;
+  }
+
+  .xl\:focus\:border-boxoverD:focus {
+    border-color: #333a57;
+  }
+
+  .xl\:focus\:border-backlight:focus {
+    border-color: #fff;
+  }
+
+  .xl\:focus\:border-boxlight:focus {
+    border-color: #f0f2fa;
+  }
+
+  .xl\:focus\:border-boxover:focus {
+    border-color: #e1e4f0;
   }
 
   .xl\:rounded-none {
@@ -56993,15 +60647,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: Inter, sans-serif;
   }
 
   .xl\:font-hairline {
@@ -61132,6 +64778,226 @@ video {
     color: #702459;
   }
 
+  .xl\:placeholder-verdelima::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:placeholder-verdelima::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:placeholder-verdelima:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:placeholder-verdelima::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:placeholder-verdelima::placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:placeholder-rojoBrillante::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:placeholder-rojoBrillante::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:placeholder-rojoBrillante:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:placeholder-rojoBrillante::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:placeholder-rojoBrillante::placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:placeholder-facebook::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:placeholder-facebook::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:placeholder-facebook:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:placeholder-facebook::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:placeholder-facebook::placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:placeholder-twitter::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:placeholder-twitter::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:placeholder-twitter:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:placeholder-twitter::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:placeholder-twitter::placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:placeholder-youtube::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:placeholder-youtube::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:placeholder-youtube:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:placeholder-youtube::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:placeholder-youtube::placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:placeholder-backdark::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:placeholder-backdark::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:placeholder-backdark:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:placeholder-backdark::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:placeholder-backdark::placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:placeholder-boxdark::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:placeholder-boxdark::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:placeholder-boxdark:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:placeholder-boxdark::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:placeholder-boxdark::placeholder {
+    color: #242a42;
+  }
+
+  .xl\:placeholder-boxoverD::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:placeholder-boxoverD::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:placeholder-boxoverD:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:placeholder-boxoverD::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:placeholder-boxoverD::placeholder {
+    color: #333a57;
+  }
+
+  .xl\:placeholder-backlight::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .xl\:placeholder-backlight::-moz-placeholder {
+    color: #fff;
+  }
+
+  .xl\:placeholder-backlight:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .xl\:placeholder-backlight::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .xl\:placeholder-backlight::placeholder {
+    color: #fff;
+  }
+
+  .xl\:placeholder-boxlight::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:placeholder-boxlight::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:placeholder-boxlight:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:placeholder-boxlight::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:placeholder-boxlight::placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:placeholder-boxover::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:placeholder-boxover::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:placeholder-boxover:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:placeholder-boxover::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:placeholder-boxover::placeholder {
+    color: #e1e4f0;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -62992,6 +66858,226 @@ video {
     color: #702459;
   }
 
+  .xl\:focus\:placeholder-verdelima:focus::-webkit-input-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:focus\:placeholder-verdelima:focus::-moz-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:focus\:placeholder-verdelima:focus:-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:focus\:placeholder-verdelima:focus::-ms-input-placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:focus\:placeholder-verdelima:focus::placeholder {
+    color: #1DB489;
+  }
+
+  .xl\:focus\:placeholder-rojoBrillante:focus::-webkit-input-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:focus\:placeholder-rojoBrillante:focus::-moz-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:focus\:placeholder-rojoBrillante:focus:-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:focus\:placeholder-rojoBrillante:focus::-ms-input-placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:focus\:placeholder-rojoBrillante:focus::placeholder {
+    color: #DC414C;
+  }
+
+  .xl\:focus\:placeholder-facebook:focus::-webkit-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:focus\:placeholder-facebook:focus::-moz-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:focus\:placeholder-facebook:focus:-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:focus\:placeholder-facebook:focus::-ms-input-placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:focus\:placeholder-facebook:focus::placeholder {
+    color: #1CA0F2;
+  }
+
+  .xl\:focus\:placeholder-twitter:focus::-webkit-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:focus\:placeholder-twitter:focus::-moz-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:focus\:placeholder-twitter:focus:-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:focus\:placeholder-twitter:focus::-ms-input-placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:focus\:placeholder-twitter:focus::placeholder {
+    color: #00BFFF;
+  }
+
+  .xl\:focus\:placeholder-youtube:focus::-webkit-input-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:focus\:placeholder-youtube:focus::-moz-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:focus\:placeholder-youtube:focus:-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:focus\:placeholder-youtube:focus::-ms-input-placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:focus\:placeholder-youtube:focus::placeholder {
+    color: #C4032A;
+  }
+
+  .xl\:focus\:placeholder-backdark:focus::-webkit-input-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:focus\:placeholder-backdark:focus::-moz-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:focus\:placeholder-backdark:focus:-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:focus\:placeholder-backdark:focus::-ms-input-placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:focus\:placeholder-backdark:focus::placeholder {
+    color: #1f212e;
+  }
+
+  .xl\:focus\:placeholder-boxdark:focus::-webkit-input-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:focus\:placeholder-boxdark:focus::-moz-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:focus\:placeholder-boxdark:focus:-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:focus\:placeholder-boxdark:focus::-ms-input-placeholder {
+    color: #242a42;
+  }
+
+  .xl\:focus\:placeholder-boxdark:focus::placeholder {
+    color: #242a42;
+  }
+
+  .xl\:focus\:placeholder-boxoverD:focus::-webkit-input-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:focus\:placeholder-boxoverD:focus::-moz-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:focus\:placeholder-boxoverD:focus:-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:focus\:placeholder-boxoverD:focus::-ms-input-placeholder {
+    color: #333a57;
+  }
+
+  .xl\:focus\:placeholder-boxoverD:focus::placeholder {
+    color: #333a57;
+  }
+
+  .xl\:focus\:placeholder-backlight:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  .xl\:focus\:placeholder-backlight:focus::-moz-placeholder {
+    color: #fff;
+  }
+
+  .xl\:focus\:placeholder-backlight:focus:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .xl\:focus\:placeholder-backlight:focus::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  .xl\:focus\:placeholder-backlight:focus::placeholder {
+    color: #fff;
+  }
+
+  .xl\:focus\:placeholder-boxlight:focus::-webkit-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:focus\:placeholder-boxlight:focus::-moz-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:focus\:placeholder-boxlight:focus:-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:focus\:placeholder-boxlight:focus::-ms-input-placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:focus\:placeholder-boxlight:focus::placeholder {
+    color: #f0f2fa;
+  }
+
+  .xl\:focus\:placeholder-boxover:focus::-webkit-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:focus\:placeholder-boxover:focus::-moz-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:focus\:placeholder-boxover:focus:-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:focus\:placeholder-boxover:focus::-ms-input-placeholder {
+    color: #e1e4f0;
+  }
+
+  .xl\:focus\:placeholder-boxover:focus::placeholder {
+    color: #e1e4f0;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -63639,6 +67725,50 @@ video {
     color: #702459;
   }
 
+  .xl\:text-verdelima {
+    color: #1DB489;
+  }
+
+  .xl\:text-rojoBrillante {
+    color: #DC414C;
+  }
+
+  .xl\:text-facebook {
+    color: #1CA0F2;
+  }
+
+  .xl\:text-twitter {
+    color: #00BFFF;
+  }
+
+  .xl\:text-youtube {
+    color: #C4032A;
+  }
+
+  .xl\:text-backdark {
+    color: #1f212e;
+  }
+
+  .xl\:text-boxdark {
+    color: #242a42;
+  }
+
+  .xl\:text-boxoverD {
+    color: #333a57;
+  }
+
+  .xl\:text-backlight {
+    color: #fff;
+  }
+
+  .xl\:text-boxlight {
+    color: #f0f2fa;
+  }
+
+  .xl\:text-boxover {
+    color: #e1e4f0;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -64011,6 +68141,50 @@ video {
     color: #702459;
   }
 
+  .xl\:hover\:text-verdelima:hover {
+    color: #1DB489;
+  }
+
+  .xl\:hover\:text-rojoBrillante:hover {
+    color: #DC414C;
+  }
+
+  .xl\:hover\:text-facebook:hover {
+    color: #1CA0F2;
+  }
+
+  .xl\:hover\:text-twitter:hover {
+    color: #00BFFF;
+  }
+
+  .xl\:hover\:text-youtube:hover {
+    color: #C4032A;
+  }
+
+  .xl\:hover\:text-backdark:hover {
+    color: #1f212e;
+  }
+
+  .xl\:hover\:text-boxdark:hover {
+    color: #242a42;
+  }
+
+  .xl\:hover\:text-boxoverD:hover {
+    color: #333a57;
+  }
+
+  .xl\:hover\:text-backlight:hover {
+    color: #fff;
+  }
+
+  .xl\:hover\:text-boxlight:hover {
+    color: #f0f2fa;
+  }
+
+  .xl\:hover\:text-boxover:hover {
+    color: #e1e4f0;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -64381,6 +68555,50 @@ video {
 
   .xl\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .xl\:focus\:text-verdelima:focus {
+    color: #1DB489;
+  }
+
+  .xl\:focus\:text-rojoBrillante:focus {
+    color: #DC414C;
+  }
+
+  .xl\:focus\:text-facebook:focus {
+    color: #1CA0F2;
+  }
+
+  .xl\:focus\:text-twitter:focus {
+    color: #00BFFF;
+  }
+
+  .xl\:focus\:text-youtube:focus {
+    color: #C4032A;
+  }
+
+  .xl\:focus\:text-backdark:focus {
+    color: #1f212e;
+  }
+
+  .xl\:focus\:text-boxdark:focus {
+    color: #242a42;
+  }
+
+  .xl\:focus\:text-boxoverD:focus {
+    color: #333a57;
+  }
+
+  .xl\:focus\:text-backlight:focus {
+    color: #fff;
+  }
+
+  .xl\:focus\:text-boxlight:focus {
+    color: #f0f2fa;
+  }
+
+  .xl\:focus\:text-boxover:focus {
+    color: #e1e4f0;
   }
 
   .xl\:text-xs {
