@@ -12,7 +12,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="m-4 bg-backlight">
+<body class="m-4 lightbg lightbgsmall">
   <header class="md:flex justify-between">
     <div class="title w-12/12 md:w-8/12">
       <h1 class="text-2xl font-bold"> Social Media Dashboard </h1>
@@ -23,14 +23,14 @@
         <p>Dark Mode:</p>
       </div>
       <div class="dark-button absolute right-0 top-0">
-        <input type="checkbox" id="switch">
+        <input type="checkbox" id="switch" class="onOff" onclick="darkMode()">
         <label for="switch">Toogle</label>
       </div>
     </div>
   </header>
 <!-- container -->
   <div class="resume w-full text-center">
-    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="data card overflow-hidden rounded-md lightbgbox  mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="line mb-4"></div>
       <div class="social-net flex justify-center my-4">
         <img class="self-center h-6 w-auto" src="./images/icon-facebook.svg" alt="">
@@ -43,7 +43,7 @@
         <p class="text-sm text-verdelima">12 Today</p>
       </div>
     </div>
-    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="data card overflow-hidden rounded-md lightbgbox  mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="line"></div>
       <div class="social-net flex justify-center my-4">
         <img class="self-center h-6 w-auto" src="./images/icon-twitter.svg" alt="">
@@ -56,7 +56,7 @@
         <p class="text-sm text-verdelima">99 Today</p>
       </div>
     </div>
-    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="data card overflow-hidden rounded-md lightbgbox  mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="line"></div>
       <div class="social-net flex justify-center my-4">
         <img class="self-center h-6 w-auto" src="./images/icon-instagram.svg" alt="">
@@ -69,7 +69,7 @@
         <p class="text-sm text-verdelima">1099 Today</p>
       </div>
     </div>
-    <div class="data card overflow-hidden rounded-md bg-boxlight hover:bg-boxover mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="data card overflow-hidden rounded-md lightbgbox  mb-8 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="line"></div>
       <div class="social-net flex justify-center my-4">
         <img class="self-center h-6 w-auto" src="./images/icon-youtube.svg" alt="">
@@ -86,104 +86,104 @@
   </div>
   <h2 class="text-xl font-bold">Overview - Today</h2>
   <div class="overview w-full text-center">
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Page Views</p>
         <img class="self-center h-6 w-auto" src="./images/icon-facebook.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black">87</div>
+        <div class="number-today font-bold text-3xl">87</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
           <p class="text-verdelima">3%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Likes</p>
         <img class="self-center h-6 w-auto" src="./images/icon-facebook.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black">52</div>
+        <div class="number-today font-bold text-3xl">52</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
           <p class="text-rojoBrillante">2%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Likes</p>
         <img class="self-center h-6 w-auto" src="./images/icon-instagram.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black"> 5462</div>
+        <div class="number-today font-bold text-3xl"> 5462</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
           <p class="text-verdelima">2257%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Profile Views</p>
         <img class="self-center h-6 w-auto" src="./images/icon-instagram.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black" >52k</div>
+        <div class="number-today font-bold text-3xl" >52k</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
           <p class="text-verdelima">1375%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Retweets</p>
         <img class="self-center h-6 w-auto" src="./images/icon-twitter.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black" >117</div>
+        <div class="number-today font-bold text-3xl" >117</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
           <p class="text-verdelima">303%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Likes</p>
         <img class="self-center h-6 w-auto" src="./images/icon-twitter.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black" >507</div>
+        <div class="number-today font-bold text-3xl" >507</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-up.svg" alt="">
           <p class="text-verdelima">553%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Likes</p>
         <img class="self-center h-6 w-auto" src="./images/icon-youtube.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black" >107</div>
+        <div class="number-today font-bold text-3xl" >107</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
           <p class="text-rojoBrillante">19%</p>
         </div>
       </div>
     </div>
-    <div class="dataover bg-boxlight hover:bg-boxover rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
+    <div class="dataover lightbgbox  rounded-md mb-8 p-4 w-full md:inline-block md:w-5/12 md:mx-auto lg:w-1/5 lg:mx-4">
       <div class="data-today flex justify-between mb-4">
         <p class="text-gray-600">Total Views</p>
         <img class="self-center h-6 w-auto" src="./images/icon-youtube.svg" alt="">
       </div>
       <div class="numer-today flex justify-between items-end">
-        <div class="number-today font-bold text-3xl text-black"> 1407</div>
+        <div class="number-today font-bold text-3xl"> 1407</div>
         <div class="up-down flex">
           <img class="self-center h-2 w-auto mr-2" src="./images/icon-down.svg" alt="">
           <p class="text-rojoBrillante">12%</p>
@@ -195,5 +195,21 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Carlos Alba</a>.
   </div>
+  <script>
+    let lightbg = document.querySelector(".lightbg");
+    let lightbgbox = document.querySelectorAll(".lightbgbox");
+
+    let darkbg = document.querySelector(".darkbg");
+    let darkbgbox = document.querySelector(".darkbgbox");
+    
+    let lightbgsmall = document.querySelector('.lightbgsmall');
+    let darkbgsmall = document.querySelector('.darkbgsmall');
+
+    function darkMode(){
+      lightbg.classList.toggle('darkbg')
+      lightbgsmall.classList.toggle('darkbgsmall')  
+      lightbgbox.classList.toggle('darkbgbox')
+    }
+  </script>
 </body>
 </html>

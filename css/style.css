@@ -14846,10 +14846,50 @@ label:active:after {
   height: 50px;
 }
 
-body{
+/* combos */
+
+.lightbgsmall{
   background-image: linear-gradient(180deg, rgba(248,249,254,1) 0%, rgba(248,249,254,1) 100%);
   background-repeat: no-repeat;
   height: 40vh;
+}
+
+.lightbgsmall.darkbgsmall{
+  background-image: linear-gradient(180deg, rgba(32,34,47,1) 0%, rgba(32,34,47,1) 100%);
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.lightbg{
+  background-color: #fff;
+}
+
+.lightbgbox{
+  background-color: #f0f2fa;
+}
+
+.lightbgbox:hover{
+  background-color: #e1e4f0;
+}
+
+.lightbg.darkbg {
+  background-color: #1f212e;
+  color: #fff;
+}
+
+.lightbgbox.darkbgbox{
+  background-color: #242a42;
+  color: #fff;
+}
+
+.darkbgbox{
+  background-color: #242a42;
+  color: #fff;
+}
+
+.darkbgbox:hover {
+  background-color: #333a57;
+  color: #fff;
 }
 
 @media (min-width: 640px) {
