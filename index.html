@@ -208,7 +208,11 @@
     function darkMode(){
       lightbg.classList.toggle('darkbg')
       lightbgsmall.classList.toggle('darkbgsmall')  
-      lightbgbox.classList.toggle('darkbgbox')
+      if (lightbg.classList.contains('lightbg')) {
+        for (let i = 0; i < lightbgbox.length; i++) {
+          lightbgbox[i].classList.toggle('darkbgbox')          
+        }
+      }
     }
   </script>
 </body>
